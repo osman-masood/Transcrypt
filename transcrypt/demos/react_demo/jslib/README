@@ -1,0 +1,11 @@
+WIP. Currently doesn't work.
+Meant to put JS libraries (jQuery, React etc) transpiled into Python, so that Python code
+can use them with autocompletion, & so IDEs won't show errors/warnings.
+
+HOW TO USE:
+
+> js2py.translate_file('react-dom.js', 'react_dom.py')
+
+> js2py.translate_file('react-with-addons.js', 'react_with_addons.py')
+
+However, above code throws errors. Also tried jiphy, doesn't work either.
